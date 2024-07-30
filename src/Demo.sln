@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2ProgrammingBasics", "Chapter2ProgrammingBasics", "{8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticOperations", "ArithmeticOperations\ArithmeticOperations.csproj", "{40CDD276-AB38-489F-AA4A-70C689B7BA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseOperations", "BitwiseOperations\BitwiseOperations.csproj", "{400FC28A-884F-4EE4-BF75-332273F3ED01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleIO", "ConsoleIO\ConsoleIO.csproj", "{C4EEDEF9-1D15-4762-855F-92FC917946DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40CDD276-AB38-489F-AA4A-70C689B7BA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CDD276-AB38-489F-AA4A-70C689B7BA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CDD276-AB38-489F-AA4A-70C689B7BA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CDD276-AB38-489F-AA4A-70C689B7BA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400FC28A-884F-4EE4-BF75-332273F3ED01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400FC28A-884F-4EE4-BF75-332273F3ED01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400FC28A-884F-4EE4-BF75-332273F3ED01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400FC28A-884F-4EE4-BF75-332273F3ED01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EEDEF9-1D15-4762-855F-92FC917946DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EEDEF9-1D15-4762-855F-92FC917946DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EEDEF9-1D15-4762-855F-92FC917946DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EEDEF9-1D15-4762-855F-92FC917946DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40CDD276-AB38-489F-AA4A-70C689B7BA38} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+		{400FC28A-884F-4EE4-BF75-332273F3ED01} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+		{C4EEDEF9-1D15-4762-855F-92FC917946DD} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+	EndGlobalSection
+EndGlobal
