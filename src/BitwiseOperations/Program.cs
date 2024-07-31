@@ -1,4 +1,6 @@
-﻿void LogicalOperations()
+﻿using System.Runtime.Intrinsics.X86;
+
+void LogicalOperations()
 {
     /* & */
     {
@@ -45,4 +47,52 @@
         int x = 12; // 00001100
         Console.WriteLine(~x); // 11110011=-13
     }
+    /* negative numbers */
+    {
+        int x = 12;
+        int y = ~x;
+        y += 1;
+        Console.WriteLine(y); // -12
+    }
+    /* move */
+    {
+        int a = 16; // 10000 
+        int b = 2;
+        int c = a << b; //сдвиг числа 10000 на 2 разряда влево. 1000000 = 64
+
+        Console.WriteLine($"Зашифрованное число: {c}"); //64
+
+        int d = a >> b; //такой же сдвиг. но вправо 100=4
+
+        Console.WriteLine($"Зашифрованное число: {d}");
+
+     }
+    {
+        int a = 22; // 10110 
+        int b = 2;
+        int c = a << b; //сдвиг числа 10110 на 2 разряда влево. 1011000 = 88
+
+        Console.WriteLine($"Зашифрованное число: {c}"); //88
+
+        int d = a >> b; //такой же сдвиг. но вправо 101=5
+
+        Console.WriteLine($"Зашифрованное число: {d}");
+
+    }
+}
+
+void DataCompression()
+{
+    int value1 = 1; // 0b0000_0011
+    int value2 = 2; // 0b0000_0010
+    int value3 = 3; //0b0000_0001
+    int result = 0b0000_0000;
+    //Сохраняем value1 в result
+    result = result | value1;
+    //Сдвигаем  разряды result на 2 разряда влево
+    result = result << 2;
+    //Сохраняем в result значения из value3 
+    result = result | value3;
+
+    Console.WriteLine(result); //57
 }
