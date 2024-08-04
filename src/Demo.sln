@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseOperations", "Bitwis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleIO", "ConsoleIO\ConsoleIO.csproj", "{C4EEDEF9-1D15-4762-855F-92FC917946DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssigmentOperations", "AssigmentOperations\AssigmentOperations.csproj", "{5D36CB5F-EF26-4E47-A90B-FBC14EFCEDEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssigmentOperations", "AssigmentOperations\AssigmentOperations.csproj", "{5D36CB5F-EF26-4E47-A90B-FBC14EFCEDEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypeConversions", "BasicDataTypeConversions\BasicDataTypeConversions.csproj", "{32DEAB93-E087-4F65-BEFF-09102EC1DAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTypeConversions", "BasicDataTypeConversions\BasicDataTypeConversions.csproj", "{32DEAB93-E087-4F65-BEFF-09102EC1DAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalExpressions", "ConditionalExpressions\ConditionalExpressions.csproj", "{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalExpressions", "ConditionalExpressions\ConditionalExpressions.csproj", "{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifelse", "ifelse\ifelse.csproj", "{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{5D36CB5F-EF26-4E47-A90B-FBC14EFCEDEE} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 		{32DEAB93-E087-4F65-BEFF-09102EC1DAD1} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 		{E9D2456C-A593-4E88-ADBE-4E7B4F872A7B} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+		{2F4CCF3A-66BB-4CB0-A3FE-100A93BEF25C} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {586C1A6C-6512-4042-BB9A-E835407B0C6F}
