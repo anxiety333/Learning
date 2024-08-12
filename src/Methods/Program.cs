@@ -61,3 +61,23 @@ PrintPerson("Tom");                   // Name: Tom  Age: 1   Company: Undefined
 
 PrintPerson("Tom", company: "Valve", age: 45);
 PrintPerson(company: "Blizzard", name: "Bobby");
+
+string GetMessage1()
+{
+    return "Hello";
+}
+
+
+string GetMessage()
+{
+    return "Hello";
+}
+
+string message = GetMessage();  // получаем результат метода в переменную message
+Console.WriteLine(message);     // Hello
+
+void PrintMessage1(string message)
+{
+    Console.WriteLine(message);
+}
+PrintMessage1(GetMessage());
