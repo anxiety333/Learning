@@ -27,13 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksWithArray", "TasksWith
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{52E3FCDF-870B-4B6A-8F60-ADC5976C758A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputParameters", "OutputParameters\OutputParameters.csproj", "{3B30E548-2D56-4554-9FDA-68C9E9821DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutputParameters", "OutputParameters\OutputParameters.csproj", "{3B30E548-2D56-4554-9FDA-68C9E9821DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{B5F74301-7212-4C79-A8E3-C99D5DA550EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{B5F74301-7212-4C79-A8E3-C99D5DA550EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFunctions", "RecursiveFunctions\RecursiveFunctions.csproj", "{A9D82D40-F3A3-4618-9618-F96FB7D952ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFunctions", "RecursiveFunctions\RecursiveFunctions.csproj", "{A9D82D40-F3A3-4618-9618-F96FB7D952ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFunctions", "LocalFunctions\LocalFunctions.csproj", "{067D2835-4F64-4617-9779-2962734D4C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalFunctions", "LocalFunctions\LocalFunctions.csproj", "{067D2835-4F64-4617-9779-2962734D4C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{E216A3D3-7880-4494-AE5F-8658433E156B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{C25D6C51-B39D-45DD-8326-0A4E4C34551C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,14 @@ Global
 		{067D2835-4F64-4617-9779-2962734D4C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067D2835-4F64-4617-9779-2962734D4C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067D2835-4F64-4617-9779-2962734D4C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E216A3D3-7880-4494-AE5F-8658433E156B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E216A3D3-7880-4494-AE5F-8658433E156B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E216A3D3-7880-4494-AE5F-8658433E156B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E216A3D3-7880-4494-AE5F-8658433E156B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25D6C51-B39D-45DD-8326-0A4E4C34551C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25D6C51-B39D-45DD-8326-0A4E4C34551C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25D6C51-B39D-45DD-8326-0A4E4C34551C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25D6C51-B39D-45DD-8326-0A4E4C34551C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +133,8 @@ Global
 		{B5F74301-7212-4C79-A8E3-C99D5DA550EC} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 		{A9D82D40-F3A3-4618-9618-F96FB7D952ED} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 		{067D2835-4F64-4617-9779-2962734D4C9B} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+		{E216A3D3-7880-4494-AE5F-8658433E156B} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
+		{C25D6C51-B39D-45DD-8326-0A4E4C34551C} = {8D2E79F6-C95D-4BEC-9CAA-3AB0278B1C84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {586C1A6C-6512-4042-BB9A-E835407B0C6F}
